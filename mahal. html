@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>27th Monthsary Letter</title>
+    <style>
+        body {
+            font-family: 'Georgia', serif;
+            color: #333;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background: url('https://i.imgur.com/3QZQZQz.jpg') no-repeat center center fixed;
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            max-width: 800px;
+            background: rgba(255, 255, 255, 0.9);
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+            position: relative;
+            overflow: hidden;
+        }
+        h1 {
+            text-align: center;
+            color: #e74c3c;
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+        p {
+            margin-bottom: 15px;
+            font-size: 1.1rem;
+            text-align: justify;
+        }
+        .signature {
+            text-align: right;
+            font-style: italic;
+            color: #e74c3c;
+            font-size: 1.2rem;
+            margin-top: 20px;
+        }
+        .decorative {
+            position: absolute;
+            opacity: 0.6;
+        }
+        .flower1 {
+            top: -50px;
+            left: -50px;
+            width: 150px;
+            transform: rotate(-30deg);
+        }
+        .flower2 {
+            bottom: -50px;
+            right: -50px;
+            width: 150px;
+            transform: rotate(30deg);
+        }
+        .sunset {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 100px;
+            background: linear-gradient(to top, rgba(255, 165, 0, 0.6), rgba(255, 69, 0, 0.4));
+            z-index: -1;
+        }
+        .wave {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 50px;
+            background: url('https://i.imgur.com/5ZQZQZz.png') repeat-x;
+            animation: wave 10s linear infinite;
+        }
+        @keyframes wave {
+            0% { background-position: 0 0; }
+            100% { background-position: 1000px 0; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Decorative Flowers -->
+        <img src="https://i.imgur.com/4QZQZQz.png" alt="Flower" class="decorative flower1">
+        <img src="https://i.imgur.com/4QZQZQz.png" alt="Flower" class="decorative flower2">
+
+        <!-- Content -->
+        <h1>Happy 27th Monthsary, Mahal!</h1>
+        <p>
+            Grabe, 27 ka bulan na kita nga nagapadayon, naga-atipan, kag nagahigugmaanay. Kada bulan nga nagaabot, mas nagaka-realize ko gid kung paano ka kaimportante sa akon kabuhi. Ikaw ang nagahatag kahulugan sa tanan ko, ikaw ang nagahatag kusog sa akon kung kapoy na, even ako ang rasun na gaka kapuy ka.
+        </p>
+        <p>
+            Mahal, kabalo ko nga indi perpekto ang aton relasyon. May mga away, may mga tampuhan, may mga misunderstanding nga daw indi naton ma-gets ang isa kag isa. Pero bisan ano pa na, isa lang gid ang sigurado sa akon—ikaw lang gihapon ang akon pili-on kada adlaw. Wala man kita sang relasyon nga perpekto, pero sigurado ako nga matuod ini, nga tuod aton paghigugmaanay.
+        </p>
+        <p>
+            Bisan tamaan na sakun kapasaway kag perme kita naga-away, ara ka gihapon sa akon kilid, ginasuportahan mo ko sa akon gusto. Bisan nasasakitan ko na sa kabubut-on mo, ara ka gihapon, kag wala mo gid ako ginbayaan. Pasensha na gid, Mahal, kung may mga butang nga nabuhat ko nga nakapasakit sa imo. Pero sa tuod-tuod lang, kung pwede lang maghikog, inubra ko na. Kaso, gapati ko nga samtang ara ka pa, may rason pa ko nga magpabilin. Bisan ako pa man ang ga hatag rasun na buyaan mumo, indi ko gusto nga biyaan ka.
+        </p>
+        <p>
+            Mahal, gusto ko lang nga kabalo ka nga bisan ano pa matabo, na ikw lng kag ikw palangaon ko. Wala na sang iban nga gusto ko updan sa bug-os ko nga kabuhi kundi ikaw lang. Gusto ko ikaw lang gihapon ang makita ko sa akon kilid sa pila pa ka tuig, ikaw lang gihapon ang akon kahulogan, ang akon kasadya, ang akon ginapalangga.
+        </p>
+        <p>
+            Salamat gid sa tanan, Mahal. Salamat sa imong pag-inchindi, sa paghatag kusug sa akon, kag sa pagpabilin sa akon kilid bisan sa mga tinion nga budlay na. Indi ko gid ma-imagine ang kabuhi ko kung wala ka. Amo na nga padayon lang ta ha? Indi ta pagpakawalan ang isa kag isa, kay kabalo ko nga ikaw lang gid ang gusto ko kag wala na sang iban.
+        </p>
+        <p>
+            Happy 27th monthsary liwat, Mahal! Palangga ta gid ikaw, subong kag sa gihapon. Ikaw lang gihapon ang akon mahal, wala sang may maka baylo sina.
+        </p>
+        <p>
+            Mahal, gusto ko lang ipahibalo sa imo nga ang imo kabuhi bililhon gid. Kung nabudlayan ka, palihug istoryahi ko. Wala ko gusto nga mag-antos ka nga ikaw lang isa. Palangga ta gid ikaw, kag gusto ko padayon lang ta duha. Indi mo pagpabaya ang imong kaugalingon ha?
+        </p>
+        <p class="signature">
+            I LOVE YOU SO MUCH MAHAL KO 💖💖<br>
+            MISS TANAKA SUBRA ☹️☹️
+        </p>
+
+        <!-- Sunset and Sea Effect -->
+        <div class="sunset"></div>
+        <div class="wave"></div>
+    </div>
+</body>
+</html>
